@@ -54,7 +54,7 @@ export default function Home() {
             <div className="greeting">
               <h2 className="medium textchange">
                 <TextChangeAnimation />
-                <span>! I'm</span>
+                <span>! I&apos;m</span>
               </h2>
             </div>
             <h1 className="name h0 extrabold">Worakrit</h1>
@@ -64,8 +64,8 @@ export default function Home() {
               </p>
             </MagneticButton>
           </div>
-          {/* <span className="star4 spin-ani"><Image src="star4.svg"/></span>
-            <span className="star9 spin-ani"><Image src="star9.svg"/></span>  */}
+          {/* <span className="star4 spin-ani"><Image src="star4.svg" alt=""/></span>
+            <span className="star9 spin-ani"><Image src="star9.svg" alt=""/></span>  */}
         </div>
         <ParallaxBackground />
       </main>
@@ -91,13 +91,13 @@ export default function Home() {
         </div>
         {/* 
           <div className="nextlevel">
-            <span><Image className="lvl4" src="nextlevel.svg"/></span>
-            <span><Image className="lvl3" src="nextlevel.svg"/></span>
-            <span><Image className="lvl2" src="nextlevel.svg"/></span>
-            <span><Image className="lvl1" src="nextlevel.svg"/></span>
+            <span><Image className="lvl4" src="nextlevel.svg" alt=""/></span>
+            <span><Image className="lvl3" src="nextlevel.svg" alt=""/></span>
+            <span><Image className="lvl2" src="nextlevel.svg" alt=""/></span>
+            <span><Image className="lvl1" src="nextlevel.svg" alt=""/></span>
           </div>
 
-          <span><Image className="jigsaw" src="jigsaw.svg"/></span>  */}
+          <span><Image className="jigsaw" src="jigsaw.svg" alt=""/></span>  */}
       </section>
 
       {/* Expertises starts */}
@@ -221,7 +221,7 @@ export default function Home() {
         </div>
         <div className="return">
           <MagneticButton>
-            <Image src="Back to top.svg" />
+            <Image src="Back to top.svg" alt="" />
           </MagneticButton>
         </div>
       </footer>
