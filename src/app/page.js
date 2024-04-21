@@ -54,7 +54,7 @@ export default function Home() {
             <div className="greeting">
               <h2 className="medium textchange">
                 <TextChangeAnimation />
-                !\'I\'m
+                <span>! I'm</span>
               </h2>
             </div>
             <h1 className="name h0 extrabold">Worakrit</h1>
