@@ -14,7 +14,7 @@ export default function Home() {
         <div className="icon">
           <MagneticButton>
             <Link href="../">
-              <img src="favicon.ico" alt="Worakrit" />
+              <Image src="favicon.ico" alt="Worakrit" />
             </Link>
           </MagneticButton>
         </div>

@@ -4,6 +4,7 @@ import React from "react";
 import ParallaxBackground from "@/components/ParallaxBackground.js";
 import TextChangeAnimation from "@/components/textanimate.js";
 import LocalTime from "@/components/time";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
         <div className="icon">
           <MagneticButton>
             <Link href="../">
-              <img src="favicon.ico" alt="Worakrit" />
+              <Image src="favicon.ico" alt="Worakrit" />
             </Link>
           </MagneticButton>
         </div>

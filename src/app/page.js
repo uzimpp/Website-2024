@@ -5,6 +5,7 @@ import ParallaxBackground from "@/components/ParallaxBackground.js";
 import TextChangeAnimation from "@/components/textanimate.js";
 import LocalTime from "@/components/time.js";
 import { bg_boxes } from "@/components/box.js";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
         <div className="icon">
           <MagneticButton>
             <Link href="../">
-              <img src="favicon.ico" alt="Worakrit" />
+              <Image src="favicon.ico" alt="Worakrit" />
             </Link>
           </MagneticButton>
         </div>
@@ -63,8 +64,8 @@ export default function Home() {
               </p>
             </MagneticButton>
           </div>
-          {/* <span className="star4 spin-ani"><img src="star4.svg"/></span>
-            <span className="star9 spin-ani"><img src="star9.svg"/></span>  */}
+          {/* <span className="star4 spin-ani"><Image src="star4.svg"/></span>
+            <span className="star9 spin-ani"><Image src="star9.svg"/></span>  */}
         </div>
         <ParallaxBackground />
       </main>
@@ -90,13 +91,13 @@ export default function Home() {
         </div>
         {/* 
           <div className="nextlevel">
-            <span><img className="lvl4" src="nextlevel.svg"/></span>
-            <span><img className="lvl3" src="nextlevel.svg"/></span>
-            <span><img className="lvl2" src="nextlevel.svg"/></span>
-            <span><img className="lvl1" src="nextlevel.svg"/></span>
+            <span><Image className="lvl4" src="nextlevel.svg"/></span>
+            <span><Image className="lvl3" src="nextlevel.svg"/></span>
+            <span><Image className="lvl2" src="nextlevel.svg"/></span>
+            <span><Image className="lvl1" src="nextlevel.svg"/></span>
           </div>
 
-          <span><img className="jigsaw" src="jigsaw.svg"/></span>  */}
+          <span><Image className="jigsaw" src="jigsaw.svg"/></span>  */}
       </section>
 
       {/* Expertises starts */}
@@ -126,7 +127,7 @@ export default function Home() {
                 className="cover-container"
                 style={{ backgroundImage: `url("/tcas-bg.png")` }}
               >
-                <img
+                <Image
                   className="cover"
                   src="tcas-cover.png"
                   alt="TCAS Engineering-Bot"
@@ -146,7 +147,7 @@ export default function Home() {
                 className="cover-container"
                 style={{ backgroundImage: `url("/myweb-bg.png")` }}
               >
-                <img
+                <Image
                   className="cover"
                   src="myweb-cover.png"
                   alt="TCAS Engineering-Bot"
@@ -220,7 +221,7 @@ export default function Home() {
         </div>
         <div className="return">
           <MagneticButton>
-            <img src="Back to top.svg" />
+            <Image src="Back to top.svg" />
           </MagneticButton>
         </div>
       </footer>
