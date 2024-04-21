@@ -52,7 +52,8 @@ export default function Home() {
           <div className="landing-content blacktext">
             <div className="greeting">
               <h2 className="medium textchange">
-                <TextChangeAnimation />! I'm
+                <TextChangeAnimation />
+                !\'I\'m
               </h2>
             </div>
             <h1 className="name h0 extrabold">Worakrit</h1>
