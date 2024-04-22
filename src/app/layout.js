@@ -13,8 +13,10 @@ const notoJapanese = Noto_Sans_JP({ subsets: ["latin"], weight: ["500"] });
 const notoKorean = Noto_Sans_KR({ subsets: ["latin"], weight: ["500"] });
 
 export const metadata = {
-  title: "Worakrit",
-  description: "Worakrit's personal website",
+  title: "Worakrit K.",
+  description:
+    "Passionate problem-solver, designer, and idea generator with a drive to take them to the next level. Located in Thailand.",
+  image: "./dog.jpg",
 };
 
 export default function RootLayout({ children }) {
