@@ -19,21 +19,19 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
+      <Head>
         <title>{metadata.title}</title>
         <meta name="title" content={metadata.title} />
         <meta name="description" content={metadata.description} />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://metatags.io/" />
         <meta property="og:title" content={metadata.title} />
         <meta property="og:description" content={metadata.description} />
         <meta property="og:image" content={metadata.image} />
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://metatags.io/" />
         <meta property="twitter:title" content={metadata.title} />
         <meta property="twitter:description" content={metadata.description} />
         <meta property="twitter:image" content={metadata.image} />
-      </head>
+      </Head>
       <body className={hankenGroteskFont.className}>
         {children}
         <SpeedInsights />
