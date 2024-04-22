@@ -19,7 +19,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
+      <head>
         <title>{metadata.title}</title>
         <meta name="title" content={metadata.title} />
         <meta name="description" content={metadata.description} />
@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
         <meta property="twitter:title" content={metadata.title} />
         <meta property="twitter:description" content={metadata.description} />
         <meta property="twitter:image" content={metadata.image} />
-      </Head>
+      </head>
       <body className={hankenGroteskFont.className}>
         {children}
         <SpeedInsights />
