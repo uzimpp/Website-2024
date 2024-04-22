@@ -2,6 +2,7 @@ import { Hanken_Grotesk } from "next/font/google";
 import { Noto_Sans_Thai } from "next/font/google";
 import { Noto_Sans_JP } from "next/font/google";
 import { Noto_Sans_KR } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 
 const hankenGroteskFont = Hanken_Grotesk({
@@ -22,7 +23,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={hankenGroteskFont.className}>{children}</body>
+      <body className={hankenGroteskFont.className}>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
