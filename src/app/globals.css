@@ -532,12 +532,13 @@ nav {
   align-items: center;
 }
 
-.copyright {}
+.copyright {
+  margin-right: 60px;
+}
 
 .local-time {
   min-width: 200px;
-  margin-left: 60px;
-  padding-right: 60px;
+  margin-right: 60px;
 }
 
 .socials-container {
